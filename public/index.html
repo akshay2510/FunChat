@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chat Room</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="css/my.css">
+
+<link href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css" rel="stylesheet">
+
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+
+
+
+
+
+</head>
+
+
+<body>
+<div>
+<div class="container" >
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <strong>Chatting Room..</strong>
+                </div>
+                <div class="panel-body" id="uprdiv" name="">
+                    
+                </div>
+                <div class="panel-footer">
+                    <div class="input-group">
+                    <input id="btn-input" name="" type="text" class="form-control input-sm" placeholder="Enter your name"   />
+                    <textarea id="message" name="" class="form-control input-sm" placeholder="Type your message here..." style="height: 100px;"> </textarea>
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" style="margin: 3px; border-radius: 20px;" id="btn-chat">
+                                Send</button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.slim.js"></script>
+<script src="js/my.js"></script>
+</body>
+</html>
